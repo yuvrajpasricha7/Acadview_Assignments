@@ -59,7 +59,15 @@ print('even nos.=',even)
 print('odd nos.=',odd)
 
 #Tuples
-#As tuples is not yet done in class so I have left Q1 and Q2 from tuples
+
+#Q1
+t1=(2,4,6,8,10)
+print(t[::-1])
+
+#Q2
+t2=(1,3,5,7,9)
+print('max=',max(t2))
+print('min=',min(t2))
 
 #Strings
 
