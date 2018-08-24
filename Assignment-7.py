@@ -3,9 +3,14 @@
 d1={}
 n1=int(input('Enter the no. of keys in dict: '))
 for i in range(1,n1+1):
-    j=input('Enter key: ')
-    d1[j]=input('Enter value: ')
-print(d1,'\n')
+    d1[i]=input('Enter value: ')
+m=input('Enter the value whose key you want to search: ')
+for k1 in d1.keys():
+    if d1[k1]==m:
+        print(k1)
+        break
+else:
+    print('Key not found')
 
 #Q2
 
