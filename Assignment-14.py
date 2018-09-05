@@ -32,7 +32,7 @@ print(l5)
 #Q6
 
 l=[1,2,3,4,5,6,7,8,9,10]
-l6=list(filter(lambda x: x if all(x%y for y in range(2,int(x/2)+1)) and x!=1 else False,l))
+l6=list(filter(lambda x: x if all(x%y!=0 for y in range(2,int(x/2)+1)) and x!=1 else False,l))
 print(l6)
 
 #Q7
