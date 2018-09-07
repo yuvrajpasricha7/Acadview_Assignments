@@ -9,4 +9,4 @@ for i in range(0,11):
     col.insert_one(stu)
 data=col.find({'marks: ':{'$gt':80}})
 for row in data:
-    print(row)
+    print('Name: {}, Marks: {}'.format(row['name: '],row['marks: ']))
